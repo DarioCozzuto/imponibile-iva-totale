@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>pagina01 JAVASCRIPT</title>
+</head>
+<script>
+	//FASE DI INPUT
+	//utilizzo una variabile di tipo numerico
+	//prezzoUnitario è una variabile numerica che assume il valore 10
+	prezzoUnitario=100;
+    quantita=5;
+	
+	//FASE DI ELABORAZIONE
+	//utilizzo un'altra variabile calcolata
+	imponibile=prezzoUnitario*quantita;
+	iva=imponibile*22/100;
+	totale=imponibile+iva;
+	messaggio="l'imponibile è: "+imponibile+"   iva: "+iva+"   valore totale e': "+totale;
+	//FASE DI OUTPUT
+	
+	//separata
+	/* alert(imponibile);
+	alert(iva);
+	alert(totale); */
+	
+	//insieme
+	alert("l'imponibile è: "+imponibile+"   iva: "+iva+"   valore totale e': "+totale);
+	//oppure
+	alert(messaggio);
+	
+	</script>
+<body>
+</body>
+</html>
